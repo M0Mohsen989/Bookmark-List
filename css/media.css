@@ -1,0 +1,118 @@
+/* للهواتف المحمولة (عرض أقل من 576px) */
+@media (max-width: 576px) {
+  .interface {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 16px; /* تقليل حجم الخط */
+    white-space: nowrap; /* منع التفاف النص */
+    text-align: center; /* محاذاة النص في المنتصف */
+  }
+
+  .bookmark-body {
+    width: 100%;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .site-name, .site-url {
+    width: 100%;
+  }
+
+  #bookmarkName, #bookmarkURL {
+    width: 100%;
+  }
+
+  #submitBtn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .table {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  #searchBookMark {
+    width: 100%;
+  }
+
+  .box-info {
+    width: 100%;
+    padding: 0;
+  }
+
+  .box-conent {
+    width: 90%;
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+
+/* للأجهزة اللوحية (عرض من 576px إلى 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .interface {
+    padding: 30px;
+  }
+
+  .bookmark-body {
+    width: 80%;
+    padding: 20px;
+    gap: 25px;
+  }
+
+  h2 {
+    font-size: 16px; /* تقليل حجم الخط */
+    white-space: nowrap; /* منع التفاف النص */
+    text-align: center; /* محاذاة النص في المنتصف */
+  }
+
+  .site-name, .site-url {
+    width: 100%;
+  }
+
+  #submitBtn {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .table {
+    font-size: 16px;
+  }
+
+  #searchBookMark {
+    width: 100%;
+  }
+
+  .box-conent {
+    width: 80%;
+    padding: 25px;
+  }
+}
+
+/* لأجهزة الكمبيوتر (عرض من 768px فما فوق) */
+@media (min-width: 768px) {
+  .bookmark-body {
+    width: 50%;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .site-name, .site-url {
+    width: 100%;
+  }
+
+  #submitBtn {
+    width: auto;
+  }
+
+  .table {
+    font-size: 18px;
+  }
+
+  .box-conent {
+    width: 60%;
+    padding: 35px;
+  }
+}
